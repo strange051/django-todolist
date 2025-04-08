@@ -12,7 +12,6 @@ RUN pip install -r requirements.txt
 
 # Copy the application code
 COPY . .
-RUN python manage.py collectstatic
 
 # Expose the port
 EXPOSE 8000
